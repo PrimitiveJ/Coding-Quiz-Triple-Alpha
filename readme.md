@@ -16,7 +16,7 @@ Assets
 Readme.MD
 
 <Image Goes Here>
-!assets\Images\CodingQuiz.jpg
+![CodingQuiz](https://user-images.githubusercontent.com/98245828/158072320-c3ce471e-c639-4ad3-89f8-c93dba18f012.jpg)
 
 Functionalities/Features:
 -Has over 4 questions
