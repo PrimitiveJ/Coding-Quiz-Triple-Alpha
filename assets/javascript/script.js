@@ -244,7 +244,7 @@ function quizEnd () {
     quizendEl.appendChild(finalscoreEl)
     console.log(timerEl.value)
     
-
+//submits user score
 }
  function submitscore(){
      //score submission logic goes here
@@ -261,14 +261,14 @@ function quizEnd () {
     localStorage.setItem('highscore3', JSON.stringify(retrieveddata))
     viewhighscores()
  }
-
+//creates a <LI> for score initials
  function createli (scoredata1) {
      var scoreitem = document.createElement('li')
      scoreitem.textContent = scoredata1.initials + "---" + scoredata1.score
      highscoreslistEl.appendChild(scoreitem)
 
  }
-
+// function to view the high scores from local storage
  function viewhighscores() {
      var highscoreslistchildren = highscoreslistEl.children
      for (var i=highscoreslistchildren.length-1; i>= 0; i--) {
