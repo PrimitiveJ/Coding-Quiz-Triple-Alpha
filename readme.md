@@ -16,6 +16,7 @@ Assets
 Readme.MD
 
 <Image Goes Here>
+!assets\Images\CodingQuiz.jpg
 
 Functionalities/Features:
 -Has over 4 questions
